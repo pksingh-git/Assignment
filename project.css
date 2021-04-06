@@ -1,0 +1,47 @@
+#nop{
+    color:white;
+    text-align: center;
+    background-color: brown;
+
+}
+#pro{
+    text-align:initial;
+}
+body{background-color: moccasin;
+
+}
+.dum {
+    text-align:right;
+    margin: 10px;;
+    }
+    .dum :hover{
+        color: #008000;
+        }
+        
+    table, th,td {
+        border-collapse: collapse;
+        border:  solid black;
+       padding: 5px;
+       text-align: center;
+
+
+      }
+      #centre{
+        
+          margin-left:100px;
+          align-items:center;
+          padding: 10px;
+      }
+     #home{
+         text-align: right;
+     }
+     .bookDelete{
+         border-radius: 5px;
+      
+         background-color: red;
+
+
+     }
+     #addBookPage{
+        display: none;
+    }

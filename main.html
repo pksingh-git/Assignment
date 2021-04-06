@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://kit.fontawesome.com/d6665cbb77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MINI PROJECT</title>
+</head>
+
+<body >
+   <div class="mainpage">
+    <div>
+    <h1 id="nop" >BOOK MANAGEMENT SYSTEM.</h1>
+    <div id="ser" >
+        
+        <select name="Tex" id="selection">
+        <option  value="id">id </option>
+        <option value="title">title</option>
+        <option value="rating">rating</option>
+        <option value="author">author</option>       
+    </select>
+            <input type="text" placeholder="Search ." name="search" id="searchBooks">
+            
+                <button   id="btn1"> click to search</button>
+
+             
+    </div>
+    
+    <div class="dum">
+      
+       <button id="addBookLink"> ADD BOOK |</button> 
+   
+           <button id="addHomeLink">HOME</button>
+       </div>
+    </div>
+   </div>
+
+   
+    <div id="bookBody">
+        <h2 id="pro">BOOK LIST:</h>
+ 
+    <table style="width:100%">
+        <tr>
+            <th>ID.</th>
+            <th>TITLE.</th>
+            <th>AUTHOR.</th>
+            <th>RATING.</th>
+            <th>DELETE.</th>
+
+        </tr>
+  <tbody id="table1" style="justify-content: center; margin:auto ;text-align: centre";>
+
+        </tbody>
+
+
+
+    </table>
+</div>
+
+
+
+<div id="addBookPage">
+    <div>
+    <h1 > ADD BOOK..</h1>
+   
+</div>
+<div id="centre">
+<form  >
+  <label for="iName">ID:</label><br>
+  <input type="text" id="iName" name="iName" placeholder="Enter id"  ><br>
+  <label for="tName">TITLE:</label><br>
+  <input type="text" id="tName" name="tName" placeholder="Enter Title "><br>
+  <label for="aName">AUTHOR:</label><br>
+  <input type="text" id="aName" name="aName" placeholder="Enter Author"><br><br>
+  <label for="rName">RATING:</label><br>
+  <input type="text" id="rName" name="rName" placeholder="Enter Rating"><br><br>
+  
+
+  <input type="submit" value="Submit" id="sum">
+  </form> 
+ </div>
+</div>
+
+    
+
+<script  type ="module"src="addBook.js"></script>
+
+<script  type="module" src="display.js"></script>
+<script type="module" src="bookManager.js"></script>
+
+<script type="module" src="delete.js"></script>
+<script type ="module" src="bookAPP.js"></script>
+    
+</body>
+</html>
